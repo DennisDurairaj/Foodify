@@ -14,6 +14,26 @@ html {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1366px;
     margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/beefsteak.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.food-text-box {
+    position: absolute;
+    width: 1140px;  /*Helps in responsive design, without it width is not fixed so size keeps changing as we change size of window */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Helps in responsive design, translates container when size increased or decreased */
+}
+
+h1 {
+    margin: 0;
 }

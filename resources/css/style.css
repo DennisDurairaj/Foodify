@@ -22,7 +22,7 @@ html {
 /*--------------------------------------------------*/
 
 .row {
-    max-width: 1140px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -33,6 +33,17 @@ section {
 .grid-size {
     padding: 1%;
 }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 /* ---------- HEADINGS ---------- */
 
@@ -188,4 +199,52 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #2ecc71;
+}
+
+/*--------------------------------------------------*/
+/* FEATURES SECTION */
+/*--------------------------------------------------*/
+
+.clearfix .text {
+    margin-bottom: 30px;
+}
+
+/*--------------------------------------------------*/
+/* MEALS SECTION */
+/*--------------------------------------------------*/
+
+.meals {
+    padding: 0;
+}
+
+.showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+/*    margin-top: 10px;*/
+}
+
+.img-meal {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.img-meal img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    transform: scale3d(1.15,1.15,1.15);
+    -webkit-transition: transform 0.5s, opacity 0.5s;
+}
+
+.img-meal img:hover {
+    opacity: 1;
+    -webkit-transform: scale3d(1.04,1.04,1.04);
 }

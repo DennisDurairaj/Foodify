@@ -90,7 +90,35 @@ h3 {
     text-align: center;
 }
 
-/* ---------- PARAGRAPHS ------------ */
+.icon-small {
+    display: inline-block;
+    width: 20px;
+    color: #2ecc71;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 5px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+
+/* ---------- LINKS ------------ */
+
+a:link,
+a:visited {
+    color: #2ecc71;
+    text-decoration: none;
+    border-bottom: 1px solid #2ecc71;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+/* ---------- PICONSARAGRAPHS ------------ */
 
 .text {
     line-height: 145%;
@@ -297,3 +325,15 @@ header {
     width: auto;
     margin-right: 25px;
 }
+
+/*--------------------------------------------------*/
+/* CITIES SECTION */
+/*--------------------------------------------------*/
+
+.cities-img {
+    width: 100%;
+    height: 132.531px;
+    margin-bottom: 15px;
+} 
+
+

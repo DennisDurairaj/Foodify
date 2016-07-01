@@ -1,0 +1,47 @@
+/* Computers 1024 to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .food-text-box {
+        width: 100%; /*Helps in responsive design, without it width is not fixed so size keeps changing as we change size of window */
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* Small tablet to big tablets 768 to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    
+    body {
+        font-size: 18px;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .text {
+        line-height: 145%;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .how-it-works div.steps-container:last-child {
+        margin-left: -10px;
+    }
+    
+    .phone-photo {
+        transform: translateX(-50px);
+    }
+}
+/* Large Smartphones to small tablets 481 to 767px */
+
+@media only screen and (max-width: 767px) {}
+
+/* Small smartphones 0 to 480px */
+
+@media only screen and (max-width: 480px) {}

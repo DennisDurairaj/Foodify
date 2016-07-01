@@ -118,7 +118,7 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
-/* ---------- PICONSARAGRAPHS ------------ */
+/* ---------- PARAGRAPHS ------------ */
 
 .text {
     line-height: 145%;
@@ -376,7 +376,7 @@ blockquote:after {
     font-size: 500%;
     display: block;
     position: absolute;
-    bottom: -55px;
+    bottom: -5    5px;
     left: -5px;
 }
 
@@ -392,4 +392,57 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/*--------------------------------------------------*/
+/* SIGN UP SECTION */
+/*--------------------------------------------------*/
+
+.subscription {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 6px 2px #e2e2e2;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border-bottom: none;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-price {
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 15px;
+    color: #2ecc71;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.meal-price {
+    font-size: 80%;
+}
+
+.plan-box li {
+    list-style: none;
+    padding: 5px 0;
 }

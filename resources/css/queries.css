@@ -1,6 +1,6 @@
 /* Computers 1024 to 1200px */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
     .food-text-box {
         width: 100%; /*Helps in responsive design, without it width is not fixed so size keeps changing as we change size of window */
         padding: 0 2%;
@@ -13,10 +13,19 @@
 
 /* Small tablet to big tablets 768 to 1023px */
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
     
     body {
         font-size: 18px;
+    }
+    
+    .logo {
+        height: 50px;
+        margin-top: 25px;
+    }
+    
+    .main-nav li {
+        margin-left: 20px;
     }
     
     section {
@@ -37,11 +46,180 @@
     .phone-photo {
         transform: translateX(-50px);
     }
+    
+    .btn-app {
+        float: left;
+        height: 45px;
+        width: auto;
+        margin-right: 25px;
+    }
+    
+    .steps-container {
+        margin-top: 10px;
+    }
+    
+    .steps {
+    margin-bottom: 30px;
+    text-align: center;
+    }
+    
+    .icon-small {
+        font-size: 110%;
+        margin-right: 3px;
+    }
+    
+    .grid-size {
+        font-size: 90%;
+    }
+    
+    .cities h3 {
+        font-size: 95%;
+    }
+    
+    .plan-box {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .plan-price {
+        font-size: 250%;
+    }
+    
+    .contact-form {
+        width: 80%;
+    }
+      
 }
 /* Large Smartphones to small tablets 481 to 767px */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    
+    body { 
+        font-size: 16px; 
+    }
+    section { 
+        padding: 20px 0; 
+    }
+    
+    .food-text-box {
+        width: 100%; /*Helps in responsive design, without it width is not fixed so size keeps changing as we change size of window */
+        padding: 0 4%;
+    }
+    
+    .logo {
+        height: 40px;
+    }
+    
+    h1 {
+        font-size: 200%;
+    }
+    
+    h2 {
+        font-size: 150%;
+    }
+    
+    .text {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    
+    .row {
+        padding: 0 4%;
+    }
+    
+    .col {
+        width: 100%;
+        margin: 1% 0 2% 0%;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .steps-container {
+        margin-top: 5px;
+    }
+    
+    .steps {
+    margin-bottom: 20px;
+    text-align: center;
+    }    
+    
+    .steps-container div:last-child a {
+        display: inline-block;
+/*        width: 50%;*/
+        margin: 0 auto;
+    }
+    
+    a:link, 
+    a:visited {
+     border-bottom: none; 
+}
+    
+    .how-it-works {
+        margin-top: 0px;
+    }
+    
+    .phone-photo {
+        width: 25%;
+    }
+    
+    .steps div {
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        font-size: 130%;
+        padding: 2px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .steps-container:first-child {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 10px 50px;
+        padding-right: 20%;
+        }
+    
+    .cities-img {
+    height: auto;
+}
+    
+    .plan-box {
+        text-align: center;
+    }
+    
+    blockquote:before {
+        top: 22px;
+    }
+    
+    blockquote:after {
+        bottom: -25px;
+    }
+    
+    cite {
+        padding: 0;
+    }
+
+}
 
 /* Small smartphones 0 to 480px */
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    
+    section {
+        padding 25px;
+    }
+    
+    .contact-form {
+        width: 100%;
+    }
+    
+    .subscription {
+        width: 100%;
+    }
+}
+
+

@@ -52,6 +52,9 @@
         width: auto;
         margin-right: 25px;
     }
+    .img-meal img {
+        width: 100%;
+    }
     .steps-container {
         margin-top: 10px;
     }
@@ -65,6 +68,7 @@
     }
     .grid-size {
         font-size: 90%;
+        overflow: hidden;
     }
     .cities h3 {
         font-size: 95%;
@@ -185,6 +189,7 @@
         padding-right: 20%;
     }
     .cities-img {
+        width: 100%;
         height: auto;
     }
     .plan-box {

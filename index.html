@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width" , initial-scale=1.0>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -16,24 +17,26 @@
     <header>
         <nav>
             <div class="row">
-               <img src="resources/img/foodify.png" alt='Foodify Logo' class="logo">
-                <ul class="main-nav">
-                    <li><a href="#">Food Delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our Cities</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                <img src="resources/img/foodify.png" alt='Foodify Logo' class="logo">
+                <ul class="main-nav js-main-nav">
+                    <li><a href="#features">Food Delivery</a></li>
+                    <li><a href="#how-it-works">How it works</a></li>
+                    <li><a href="#cities">Our Cities</a></li>
+                    <li><a href="#sign-up">Sign Up</a></li>
                 </ul>
+                <a class="nav-icon js-mobile-nav"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
         <div class="food-text-box">
-            <h1>Say goodbye to calling,<br>Hello to Internet orders!</h1> <a class="button btn-full" href="#">I'm Hungry</a> <a class="button btn-box" href="#">Show me more</a> </div>
+            <h1>Say goodbye to calling,<br>Hello to Internet orders!</h1> <a class="button btn-full js-scroll-to-plans" href="#">I'm Hungry</a> <a class="button btn-box js-scroll-to-next" href="#">Show me more</a> </div>
     </header>
-    <section class="js-features-section clearfix">
+
+    <section class="js-features-section clearfix" id="features">
         <div class="row">
             <h2>Get food fast &mdash; Not fast food</h2>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, fugit explicabo officiis nobis molestiae debitis saepe, ullam, vel delectus eos, expedita.</p>
         </div>
-        <div class="row">
+        <div class="row js-waypoint-1">
             <div class="col span_1_of_4 grid-size"> <i class="icon-big ion-ios-infinite-outline"></i>
                 <h3>365 days a year!</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum veritatis distinctio minima, ab alias culpa et natus quod sit? Iusto neque excepturi.</p>
@@ -74,11 +77,11 @@
                 <figure class="img-meal"><img src="resources/img/Wedding_15.jpg" class="img-meal" </figure> </li>
         </ul>
     </section>
-    <section class="how-it-works clearfix">
+    <section class="how-it-works clearfix" id="how-it-works">
         <div class="row">
             <h2>How it works &mdash; Simple as ever</h2> </div>
         <div class="row">
-            <div class="col span_1_of_2 steps-container"> <img src="resources/img/samsung3.jpg" alt="Phone" class="phone-photo"> </div>
+            <div class="col span_1_of_2 steps-container"> <img src="resources/img/samsung3.jpg" alt="Phone" class="phone-photo js-waypoint-2"> </div>
             <div class="col span_1_of_2 steps-container">
                 <div class="steps">
                     <div>1</div>
@@ -99,10 +102,10 @@
             </div>
         </div>
     </section>
-    <section class="cities clearfix">
+    <section class="cities clearfix" id="cities">
         <div class="row">
             <h2>Where we are</h2> </div>
-        <div class="row">
+        <div class="row js-waypoint-3">
             <div class="col span_1_of_4 grid-size"> <img src="resources/img/mumbai.jpg" alt="Mumbai" class="cities-img">
                 <h3>MUMBAI</h3>
                 <div class="cities-list"> <i class="ion-happy icon-small"></i> 1000+ happy customers </div>
@@ -141,12 +144,13 @@
                 <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing. Tempora atque inventore sequi enim veniam possimus animi, fugit natus est aliquid. Enim quod, exercitationem, atque iure necessitatibus distinctio dignissimos quia sequi. </blockquote> <cite><img src="resources/img/customer3.jpg" alt="Customer Image">Rick Lane</cite> </div>
         </div>
     </section>
-    <section class="subscription clearfix">
+
+    <section class="subscription js-subscription clearfix" id="sign-up">
         <div class="row">
             <h2>Register with us today!</h2> </div>
         <div class="row">
             <div class="col span_1_of_3">
-                <div class="plan-box">
+                <div class="plan-box js-waypoint-4">
                     <div>
                         <h3>Premium</h3>
                         <p class="plan-price">$99 <span> / month </span></p>

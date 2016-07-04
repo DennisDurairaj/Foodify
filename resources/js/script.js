@@ -85,9 +85,19 @@ $(document).ready(function () {
 
     /* Map */
 
-    new GMaps({
+    var map = new GMaps({
       div: '.map',
-      lat: -12.043333,
-      lng: -77.028333
+      lat: 52.2284006,
+      lng: 21.12,
+      zoom: 12
+    });
+
+    map.addMarker({
+        lat: 52.230,
+      lng: 21.012,
+        title: 'Warsaw',
+        infoWindow: {
+            content: '<p>Warsaw HQ</p>'
+        }
     });
 });

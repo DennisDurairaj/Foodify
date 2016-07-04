@@ -80,8 +80,8 @@
     .plan-price {
         font-size: 250%;
     }
-    .contact-form {
-        width: 80%;
+    .contact-form .col {
+        padding: 5px 0;
     }
 }
 
@@ -203,6 +203,25 @@
     }
     cite {
         padding: 0;
+    }
+    .map {
+        width: 100%;
+        height: 250px;
+    }
+
+    .form-box {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .form-box .col {
+        padding: 0;
+    }
+    .contact-form {
+        font-size: 95%;
     }
 }
 

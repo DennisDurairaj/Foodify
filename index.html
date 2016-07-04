@@ -68,23 +68,31 @@
     <section class="meals clearfix">
         <ul class="showcase">
             <li>
-                <figure class="img-meal"><img src="resources/img/healthy-sandwiches-with-cheese-and-vegetables.jpg"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/healthy-sandwiches-with-cheese-and-vegetables.jpg"></figure>
+            </li>
             <li>
-                <figure class="img-meal"><img src="resources/img/quick-pasta-to-go.jpg"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/quick-pasta-to-go.jpg"></figure>
+            </li>
             <li>
-                <figure class="img-meal"><img src="resources/img/ready-for-barbeque.jpg"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/ready-for-barbeque.jpg"></figure>
+            </li>
             <li>
-                <figure class="img-meal"><img src="resources/img/roasted-potatoes-with-vegetables.jpg"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/roasted-potatoes-with-vegetables.jpg"></figure>
+            </li>
         </ul>
         <ul class="showcase">
             <li>
-                <figure class="img-meal"><img src="resources/img/salad-in-a-salad-bar.jpg"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/salad-in-a-salad-bar.jpg"></figure>
+            </li>
             <li>
-                <figure class="img-meal"><img src="resources/img/stir-fried-root-vegetables.jpg"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/stir-fried-root-vegetables.jpg"></figure>
+            </li>
             <li>
-                <figure class="img-meal"><img src="resources/img/vietnamese-Bun-Cha.jpg"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/vietnamese-Bun-Cha.jpg"></figure>
+            </li>
             <li>
-                <figure class="img-meal"><img src="resources/img/Wedding_15.jpg" class="img-meal"></figure> </li>
+                <figure class="img-meal"><img src="resources/img/Wedding_15.jpg" class="img-meal"></figure>
+            </li>
         </ul>
     </section>
     <section class="how-it-works clearfix" id="how-it-works">
@@ -217,60 +225,62 @@
     </section>
     <section class="contacts clearfix">
         <div class="map"></div>
-        <div class="row">
-            <h2>Contact us</h2> </div>
-        <div class="row">
-            <form class="contact-form" method="post" action="#">
-                <div>
-                    <div class="col span_1_of_3">
-                        <label for="name">Name</label>
+        <div class="form-box">
+            <div class="row">
+                <h2>Contact us</h2> </div>
+            <div class="row">
+                <form class="contact-form" method="post" action="#">
+                    <div>
+                        <div class="col span_1_of_3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required> </div>
                     </div>
-                    <div class="col span_2_of_3">
-                        <input type="text" name="name" id="name" placeholder="Your name" required> </div>
-                </div>
-                <div>
-                    <div class="col span_1_of_3">
-                        <label for="email">Email</label>
+                    <div>
+                        <div class="col span_1_of_3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required> </div>
                     </div>
-                    <div class="col span_2_of_3">
-                        <input type="email" name="email" id="email" placeholder="Your email" required> </div>
-                </div>
-                <div>
-                    <div class="col span_1_of_3">
-                        <label for="find-us">How did you find us?</label>
+                    <div>
+                        <div class="col span_1_of_3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <select name="find-us" id="find-us">
+                                <option value="search">Search engine</option>
+                                <option value="friends">Friends</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col span_2_of_3">
-                        <select name="find-us" id="find-us">
-                            <option value="search">Search engine</option>
-                            <option value="friends">Friends</option>
-                            <option value="ad">Advertisement</option>
-                            <option value="other">Other</option>
-                        </select>
+                    <div>
+                        <div class="col span_1_of_3">
+                            <label class="label-class">Newsletter?</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <input type="checkbox" name="news" id="news"> Yes, please </div>
                     </div>
-                </div>
-                <div>
-                    <div class="col span_1_of_3">
-                        <label>Newsletter</label>
+                    <div>
+                        <div class="col span_1_of_3">
+                            <label>How may we help you?</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
                     </div>
-                    <div class="col span_2_of_3">
-                        <input type="checkbox" name="news" id="news"> Yes, please </div>
-                </div>
-                <div>
-                    <div class="col span_1_of_3">
-                        <label>How may we help you?</label>
+                    <div>
+                        <div class="col span_1_of_3">
+                            <label></label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <input type="submit" value="Submit"> </div>
                     </div>
-                    <div class="col span_2_of_3">
-                        <textarea name="message" placeholder="Your message"></textarea>
-                    </div>
-                </div>
-                <div>
-                    <div class="col span_1_of_3">
-                        <label></label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="submit" value="Submit"> </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </section>
     <footer>
